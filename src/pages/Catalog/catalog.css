@@ -1,0 +1,28 @@
+.petcard {
+    text-align: right;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+
+
+.petcard:hover {
+    background-color: rgb(34, 150, 18);
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.main {
+    width: 100%;
+}
