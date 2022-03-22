@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "./App.css"
 import PetDB from './petDB.json'
-import './SearchBarS.css'
-import './SearchBarP/HomeS.css'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from '../pages/Home';
 import Form from '../pages/Form';
